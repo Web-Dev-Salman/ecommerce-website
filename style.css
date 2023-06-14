@@ -1,0 +1,65 @@
+body{
+    margin: 0 auto;
+    padding: 20px 0px 0px 0px;
+    max-width: 1400px;
+
+}
+
+
+
+h1{
+    font-size: 40px;
+
+}
+h2{
+    font-size: 35px;
+
+}
+h3{
+    font-size: 30px;
+
+}
+h4{
+    font-size: 25px;
+
+}
+h5{
+    font-size: 22px;
+
+}
+h6{
+    font-size: 19px;
+} 
+p{
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+/* Header style start here */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .logo img{
+    width: 400px;
+    height: 90px;
+}
+
+.nav-items a{
+    font-size: 25px;
+    color: #2A3E4F;
+    transition: 0.2s ease-in;
+}
+.nav-items:not(:last-child){
+    padding-right: 25px;
+}
+.nav-items a:hover{
+    color:#1F93A3;
+
+}
+
+
+/* here section css start here  */
